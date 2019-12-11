@@ -37,9 +37,6 @@ body {
 }
 /* Footer */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-section {
-  padding: 60px 0;
-}
 
 section .section-title {
   text-align: center;
@@ -111,7 +108,12 @@ section .section-title {
     margin-bottom: 10px;
   }
 }
-
+@media only screen and (max-width: 1400px) {
+  #footer {
+ font-size: 15px !important;
+ height: 40% !important;
+  }
+}
 /* card hover function */
 .card:hover {
   transform: scale(1.1);
